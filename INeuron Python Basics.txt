@@ -1,0 +1,195 @@
+Python Basics :
+
+
+1+2
+3
+
+
+4%2
+0
+
+
+4/2
+2.0
+
+
+5//2
+2
+
+
+5/2
+2.5
+
+
+#BODMAS--Bracket Of Division,Multiplication,Addition And Substraction
+
+5+3*2
+11
+
+
+(5+3)*2
+16
+
+
+a=10
+b=20
+c=a+b
+
+type(c)
+int
+
+
+type('krish')
+str
+
+
+
+##Boolean operation
+
+True or True
+True
+
+True | False
+True
+
+a=10
+b=20
+a+b>30 or a-b<10
+
+True
+
+str
+
+o/p:str
+
+str(1)
+
+'1'
+
+### Strings
+### NEver use Reserve keywords. otherwise u will get error
+
+str1="Krish is good boy"
+
+str1
+
+'Krish is good boy'
+
+a=20
+
+a
+
+20
+
+print(a)
+20
+
+
+str1="A good boy"
+str2="A bad boy"
+
+print(str1)
+print(str2)
+A good boy
+A bad boy
+
+str1+" "+str2
+
+'A good boy A bad boy'
+
+name=input("Enter your Name?")
+print(name)
+Enter your Name?1
+1
+
+### Add 2 numbers
+a=float(input("Enter number 1?"))
+b=float(input("Enter number 2?"))
+c=a+b
+print("The output is",c)
+
+Enter number 1?23
+Enter number 2?34
+The output is 57.0
+
+### string Formatting
+first_name=input("What is you first name?")
+last_name=input("What is your last name")
+print("My first name is {firstname} and last name is {lastname}".format(lastname=last_name,
+                                                                        firstname=first_name))
+What is you first name?Krish
+What is your last nameNAik
+My first name is Krish and last name is NAik
+
+Variable Dynamic Typing
+
+a=10.0
+type(a)
+
+float
+
+a="Krish"
+type(a)
+
+str
+
+## Strong Typing
+1 + int("2")
+
+3
+
+#### Conditional statements
+## if and elif
+ a=int(input("Enter the number1?"))
+b=int(input("Enter the number2?"))
+c=a-b
+print("The output is",c)
+if c<0:
+    print("The number is negative")
+elif c>40:
+    print("The difference is huge")
+else:
+    print("The number is positive")
+  File "<ipython-input-4-7f4743fcbb8b>", line 3
+    a=int(input("Enter the number1?"))
+    ^
+IndentationError: unexpected indent
+
+Data Structures: 
+
+list
+tuple
+string
+Dictionary
+Sets
+
+lst=[1,2,3,"Krish","Naik"]
+
+type(lst)
+
+list
+
+lst.append("Ineuron")
+
+lst[2]="Data Science"
+print(lst[2])
+Data Science
+
+lst.append("Krish")
+lst.append("Krish")
+lst
+Out[19]:
+[1, 2, 'Data Science', 'Krish', 'Naik', 'Ineuron', 'Krish', 'Krish']
+
+lst.count(3)
+
+0
+
+# Indexing
+##immutable
+str1="Krish"
+str1="NAik"
+
+str1
+
+'NAik'
